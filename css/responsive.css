@@ -1,0 +1,16 @@
+@media screen and (max-width:576px) {
+    .navigation{
+        flex-direction: column;
+    }
+    .banner{
+        flex-direction: column-reverse;
+        margin-top: 2rem;
+    }
+    .banner-content, .banner-img{
+        width: 100%;
+    }
+.logo-container{
+    flex-wrap: wrap;
+    gap: 20px;
+}
+}
