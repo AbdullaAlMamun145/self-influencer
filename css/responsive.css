@@ -1,4 +1,8 @@
 @media screen and (max-width:576px) {
+    body{
+        margin: 0 auto;
+        padding: 1rem;
+    }
     .navigation{
         flex-direction: column;
     }

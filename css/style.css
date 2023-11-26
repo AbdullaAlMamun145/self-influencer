@@ -21,7 +21,7 @@ section{
     margin-top: 50px;
 }
 .navigation{
-    min-height: 50px;
+
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -30,7 +30,7 @@ section{
 }
 .navigation h1{
     font-weight: 500;
-    font-size: 2rem;
+    font-size: 1.5rem;
      
 }
 .nav-bar{
