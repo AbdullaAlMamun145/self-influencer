@@ -1,11 +1,36 @@
 @media screen and (max-width:576px) {
     body{
-        margin: 0 auto;
-        padding: 1rem;
+        padding: 10px;
     }
-    .navigation{
+    
+    .nav-bar{
         flex-direction: column;
     }
+    .nav-icon{
+        display:block;
+        cursor: pointer;
+        padding: 1rem;
+        font-size: 1.5rem;   
+    }
+    .nav-icon:hover + .nav-bar{
+        display: block;
+       
+        right: 0;
+    }
+    .nav-bar{
+    display: none;
+    
+    position: absolute;
+    width: 200px;
+    text-align: center;
+    background-color: cornsilk;
+    }
+    .nav-bar span{
+        display:block;
+        padding: 0.5rem;
+        border-bottom: 1px solid slategrey;
+    } 
+   
     .banner{
         flex-direction: column-reverse;
         margin-top: 2rem;
@@ -13,8 +38,18 @@
     .banner-content, .banner-img{
         width: 100%;
     }
+    .banner-content{
+        text-align: center;
+    }
 .logo-container{
     flex-wrap: wrap;
     gap: 20px;
 }
+.card-container{
+    grid-template-columns: 1fr;
+}
+.cards, .card-img img{
+    width: calc(100% - 10px);
+}
+
 }
