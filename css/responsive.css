@@ -38,7 +38,7 @@
         flex-direction: column-reverse;
         margin-top: 2rem;
     }
-    .banner-content, .banner-img, .features-container, .feature-img, .feature-content{
+    .banner-content, .banner-img, .features-container, .feature-desc{
         width: 100%;
     }
     .banner-content, .feature-content{
@@ -54,7 +54,10 @@
 .cards, .card-img img, .feature-img img{
     width: calc(100% - 10px);
 }
-{
-
+.feature-img, .feature-content{
+width: 90%;
+}
+.features-container{
+    padding: 0px;
 }
 }

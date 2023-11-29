@@ -3,12 +3,12 @@
     list-style-type: none;
     
 }
-body{
+section{
     max-width: 1300px;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
-    overflow-y: scroll;
+    margin-top: 50px;
 }
 .btn{
     border-radius: 50px;
@@ -23,9 +23,9 @@ cursor: pointer;
     text-align: center;
     font-weight: 600;
 }
-section{
+/* section{
     margin-top: 50px;
-}
+} */
 .navigation{
 
     display: flex;
@@ -96,7 +96,7 @@ border-bottom: 1px solid #ebd6d6;
     border-radius: 5px;
 background: #FFF;
 box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
-width: 329px;
+width: calc(100% - 2rem);
 
 flex-shrink: 0;
 padding: 10px;
@@ -141,12 +141,14 @@ line-height: 150%; /* 36px */
     gap: 3rem;
     justify-content: center;
     align-items: center;
+    width: 100%;
+    padding: 3rem;
 }
 .feature-img, .feature-content{
     width: 50%;
 }
 .feature-img img{
-    width: 80%;
+    width: 90%;
 }
 .feature-desc{
     color: #6C6C6C;
@@ -156,6 +158,7 @@ line-height: 150%; /* 36px */
     font-weight: 600;
     line-height: 1.5rem; /* 175% */
     text-align: justify;
+    width: 60%;
 }
 .feature-title{
 color: #0A0826;
@@ -164,9 +167,42 @@ font-style: normal;
 font-weight: 600;
 line-height: 4rem; /* 157.895% */
 }
-
-
-
-
-
+.footer-container{
+    margin-top: 3rem;
+    background: #0A0826;
+    min-height: 50VH;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+.footer-content{
+    text-align: center;
+}
+.footer-title{
+    color: #FFF;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1.5rem;
+    margin-bottom: 0.5rem;
+    font-weight: 700;
+}
+.footer-desc{
+    color: #D9DBE1;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-weight: 600;
+}
+.footer-img{
+    display: flex;
+    align-items: center;
+    gap: 0.8rem;
+    justify-content: center;
+}
+.img-style{
+    padding: 0.8rem;
+    font-size: 1rem;
+    color: #f0efef;
+    background-color: #3a3a3a;
+    border-radius: 50%;
+}
 
