@@ -1,12 +1,14 @@
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap');
 *{
     list-style-type: none;
+    
 }
 body{
     max-width: 1300px;
     margin: 0 auto;
     font-family: 'Lato', sans-serif;
     color: #3a3a3a;
+    overflow-y: scroll;
 }
 .btn{
     border-radius: 50px;
@@ -128,8 +130,40 @@ line-height: 150%; /* 36px */
     color: #FB8200;
     font-size: 0.8rem;
 }
-
-
+.cards-btn{
+    float: right;
+    margin-top: 1rem;
+    background: none;
+    color: #E02C6D;
+}
+.features-container{
+    display: flex;
+    gap: 3rem;
+    justify-content: center;
+    align-items: center;
+}
+.feature-img, .feature-content{
+    width: 50%;
+}
+.feature-img img{
+    width: 80%;
+}
+.feature-desc{
+    color: #6C6C6C;
+    font-feature-settings: 'clig' off, 'liga' off;
+    font-size: 1rem;
+    font-style: normal;
+    font-weight: 600;
+    line-height: 1.5rem; /* 175% */
+    text-align: justify;
+}
+.feature-title{
+color: #0A0826;
+font-size: 2rem;
+font-style: normal;
+font-weight: 600;
+line-height: 4rem; /* 157.895% */
+}
 
 
 

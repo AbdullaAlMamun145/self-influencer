@@ -6,6 +6,9 @@
     .nav-bar{
         flex-direction: column;
     }
+     .features-container{
+        flex-direction: column-reverse;
+     }
     .nav-icon{
         display:block;
         cursor: pointer;
@@ -35,10 +38,10 @@
         flex-direction: column-reverse;
         margin-top: 2rem;
     }
-    .banner-content, .banner-img{
+    .banner-content, .banner-img, .features-container, .feature-img, .feature-content{
         width: 100%;
     }
-    .banner-content{
+    .banner-content, .feature-content{
         text-align: center;
     }
 .logo-container{
@@ -48,8 +51,10 @@
 .card-container{
     grid-template-columns: 1fr;
 }
-.cards, .card-img img{
+.cards, .card-img img, .feature-img img{
     width: calc(100% - 10px);
 }
+{
 
+}
 }
